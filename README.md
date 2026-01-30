@@ -20,6 +20,13 @@ The pipeline is designed to be reproducible, extensible, and deployment‑ready:
 
 > High‑level flow of the system
 
+<pre> Data Source → Ingestion → Validation → Preprocessing → Training → Evaluation
+                                                                        ↓
+                                                                 Model Registry
+                                                                        ↓
+                                                             Inference API (FastAPI) </pre>
+
+
 ## ✨ Features
 
 - Modular pipeline design
